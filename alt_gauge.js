@@ -29,8 +29,9 @@
                 min: (_.isUndefined(currentSettings.min_value) ? 0 : currentSettings.min_value),
                 max: (_.isUndefined(currentSettings.max_value) ? 0 : currentSettings.max_value),
                 label: currentSettings.units,
-                showInnerShadow: false,
-                valueFontColor: "#d3d4d4"
+                showInnerShadow: true,
+                valueFontColor: "#d3d4d4",
+                levelColorsGradient: false
             });
         }
 
