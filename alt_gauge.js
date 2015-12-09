@@ -1,5 +1,6 @@
 (function () {
-    var gaugeID = 0;
+    	var gaugeID = 100;
+    	
 	freeboard.addStyle('.gauge-widget-wrapper', "width: 100%;text-align: center;");
 	freeboard.addStyle('.gauge-widget', "width:200px;height:160px;display:inline-block;");
 
